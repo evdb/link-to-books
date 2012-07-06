@@ -10,7 +10,7 @@ node-modules:
 
 npm-shrinkwrap:
 	npm install
-	rm npm-shrinkwrap.json
+	rm -f npm-shrinkwrap.json
 	npm install
 	npm prune
 	npm shrinkwrap
