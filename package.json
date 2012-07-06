@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "express":   ">= 3",
-    "requirejs": ">= 2.0.2"
+    "requirejs": ">= 2.0.2",
+    "geoip":     ">= 0.4.5"
   }
 }
