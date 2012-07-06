@@ -16,5 +16,12 @@ require (
   ['jquery'],
   function ($) {
     console.log('running');
+
+    $.ajax('/api/about_me', {
+      success: function (data) {
+        $('#country').text( data.country_name);
+      }
+    });
+
   }
 );
